@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace LearningManagementSystem.Domain.Entities;
 
-namespace LearningManagementSystem.Domain.Entities.Teachers
+public class Teacher : Auditable
 {
-    internal class Teacher
-    {
-    }
+
 }

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace LearningManagementSystem.Domain.Entities;
 
-namespace LearningManagementSystem.Domain.Entities.Payments
+public class Payment : Auditable
 {
-    internal class Payment
-    {
-    }
+    public long StudentId { get; set; }
+    public long CourseId { get; set; }
+    public decimal Price { get; set; }
+    public PaymentType PaymentType { get; set; }
 }
