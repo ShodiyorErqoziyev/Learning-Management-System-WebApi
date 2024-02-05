@@ -14,13 +14,4 @@
     <ProjectReference Include="..\LearningManagementSystem.Domain\LearningManagementSystem.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\Courses\" />
-    <Folder Include="Interfaces\Lessons\" />
-    <Folder Include="Interfaces\Teachers\" />
-    <Folder Include="Interfaces\Subjects\" />
-    <Folder Include="Interfaces\Students\" />
-    <Folder Include="Interfaces\Payments\" />
-  </ItemGroup>
-
 </Project>
